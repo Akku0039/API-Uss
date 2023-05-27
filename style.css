@@ -1,0 +1,101 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  body{
+    position: absolute;
+width: 2342px;
+height: 1548px;
+
+background: #1A1A1C;
+  }
+  input{
+    box-sizing: border-box;
+
+position: absolute;
+width: 986px;
+height: 79px;
+background-color:#1A1A1C ;
+border: 2px solid #8E8E8E;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+left: 275px;
+color: #FFFFFF;
+  }
+  #btn1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 79px;
+    left: 1445px;
+    border: 2px solid #8E8E8E;
+    background-color:#1A1A1C ;
+border: 2px solid #8E8E8E;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #ffffffa5;
+  }
+  #btn2{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 246px;
+height: 79px;
+left: 1716px;
+border: 2px solid #8E8E8E;
+background-color:#1A1A1C ;
+border: 2px solid #8E8E8E;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #ffffff94;
+  }
+  #btn3{
+box-sizing: border-box;
+position: absolute;
+width: 150px;
+height: 79px;
+border: 2px solid #8E8E8E;
+left: 1275px;
+border: 2px solid #8E8E8E;
+background-color:#1A1A1C ;
+border: 2px solid #8E8E8E;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #ffffff94;
+  }
+  .tb{
+left: 300px;
+position: absolute;
+width: 1651px;
+height: 1106px;
+top: 75px;
+background: url(Screenshot 2022-11-24 at 7.55.png);
+  }
+  th{
+    color: #ffffff94;
+  }
+  #cryptoTableBody{
+    color: #ffffff94;
+  }
+ 

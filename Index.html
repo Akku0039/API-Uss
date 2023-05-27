@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crypto Market Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <input type="text" id="searchInput" placeholder="Search by name or symbol">
+  <button  id="btn3"  onclick="search()">Search</button>
+  <button id="btn1" onclick="sort('marketCap')">Sort by Market Cap</button>
+  <button id="btn2" onclick="sort('percentageChange')">Sort by Percentage Change</button>
+
+  <div class="tb">
+  <table id="cryptoTable">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Symbol</th>
+        <th>Price (USD)</th>
+        <th>Total Volume</th>
+        <th>Market Cap</th>
+        <th>Percentage Change (24h)</th>
+      </tr>
+    </thead>
+    <tbody id="cryptoTableBody">
+      <!-- Data will be dynamically added here -->
+    </tbody>
+  </table>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
